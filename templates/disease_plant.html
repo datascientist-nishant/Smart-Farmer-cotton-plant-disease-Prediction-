@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Cotton Plant Disease Prediction</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--===============================================================================================-->
+	<link rel="icon" type="image/png" href="static/images/icons/dswn.png"/>
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="static/vendor/bootstrap/css/bootstrap.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="static/fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="static/vendor/animate/animate.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="static/vendor/css-hamburgers/hamburgers.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="static/vendor/select2/select2.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="static/css/util.css">
+	<link rel="stylesheet" type="text/css" href="static/css/main.css">
+<!--===============================================================================================-->
+	<style>
+		  .upload {
+
+            font-size: 15px;
+            background-color: #00000;
+
+            outline: none;
+            width: 315px;
+            color: rgb(45, 67, 0);
+
+
+        }
+        h6 {
+  color: #330033;
+}
+	</style>
+</head>
+<body>
+
+	<div class="bg-contact100" style="background-image: url('images/bg-01.jpg');">
+		<div class="container-contact100">
+			<div class="wrap-contact100">
+				<div class="contact100-pic js-tilt" data-tilt>
+					<img src="{{ user_image }}" alt="User Image">
+                    <br><br>
+                    <span> </span>
+				</div>
+
+				<form class="contact100-form validate-form">
+					<span class="contact100-form-title">
+						Smart Farmer<br>(Cotton Plant Disease Prediction System)
+					</span>
+
+					<div class="wrap-input100 validate-input" data-validate = "Required">
+
+
+<div>
+    <h4>{{pred_output}} </h4>
+	<h6>
+		Disease Name / रोग का नाम:<br><br>
+		<b>Attack of Leaf Sucking and Chewing Pests<br><br>(चुरडा,मावा रोग)<br><br>
+		Use any one Systemic Insecticide, which contain<i><br> Flonicamid 50%/ Thiamethoxam 25% WG / Imidacloprid
+                    17.8 Sl / Acetamiprid 20% SP.</i><br><br>
+		किसी भी एक प्रणालीगत कीटनाशक का प्रयोग करें, जिसमें <br>फ्लोनिकमिड ५०% / थियामेथोक्साम 25% WG / <br>इमिडाक्लोप्रिड
+            १७.८
+			एसएल / एसिटामिप्रिड २०% एसपी है|</b>
+
+</div></div>
+
+
+
+
+</form>
+
+
+
+					<div class="container-contact100-form-btn">
+<a href= predict>
+						<button  value="Back" class="contact100-form-btn">
+							Back
+
+						</button></a>
+
+					</div>
+
+
+
+				 <div>
+                   <center>
+                     <h2></h2>
+                   </center>
+                 </div>
+			</div><br><br><br><br>
+
+		</div>
+	</div>
+
+
+
+
+<!--===============================================================================================-->
+	<script src="static/vendor/jquery/jquery-3.2.1.min.js"></script>
+<!--===============================================================================================-->
+	<script src="static/vendor/bootstrap/js/popper.js"></script>
+	<script src="static/vendor/bootstrap/js/bootstrap.min.js"></script>
+<!--===============================================================================================-->
+	<script src="static/vendor/select2/select2.min.js"></script>
+<!--===============================================================================================-->
+	<script src="static/vendor/tilt/tilt.jquery.min.js"></script>
+	<script >
+		$('.js-tilt').tilt({
+			scale: 1.1
+		})
+	</script>
+<!--===============================================================================================-->
+	<script src="static/js/main.js"></script>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-23581568-13');
+</script>
+
+</body>
+</html>
